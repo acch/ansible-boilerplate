@@ -1,0 +1,12 @@
+---
+#
+# Tasks to be applied to all servers
+#
+
+- name: Check connectivity
+  ping: data=alive
+  tags: check
+
+# Add further tasks for the common role (applied to all servers) to this playbook...
+
+...
