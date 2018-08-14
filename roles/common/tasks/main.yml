@@ -4,7 +4,8 @@
 #
 
 - name: Check connectivity
-  ping: data=alive
+  ping:
+    data: alive
   tags: check
 
 # Add further tasks for the common role (applied to all servers) to this playbook...
