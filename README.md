@@ -141,3 +141,7 @@ Consider adding tags for individual components (e.g. DNS, NTP, HTTP, etc.).
 Role | Tags
 --- | ---
 Common | all,check
+
+## Copyright and license
+
+Copyright 2017 Achim Christ, released under the [MIT license](LICENSE)
