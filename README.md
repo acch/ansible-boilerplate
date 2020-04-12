@@ -18,7 +18,7 @@ Simply download (clone) the repository and start modifying files according to yo
 git clone https://github.com/acch/ansible-boilerplate.git myAnsibleProject/
 ```
 
-Ideally, you'll want to use [Git](https://git-scm.com/) to manage your Ansible configuration files. For that purpose simply [fork](https://help.github.com/articles/fork-a-repo/) this repository into your own Git repository before cloning and customizing it. Git will allow you to version and roll-back changes with ease.
+Ideally, you'll want to use [Git](https://git-scm.com/) to manage your Ansible configuration files. For that purpose simply [fork](https://help.github.com/articles/fork-a-repo/) this repository into your own Git repository before cloning and customizing it. Alternatively, create your own repository [from the template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template). Git will allow you to version and roll-back changes with ease.
 
 Specifically, you'll want to customize the following files:
 - Add your own hosts and groups to file `hosts`. You'll want to replace `[anygroup]` with a more meaningful group name, and add your own groups as required.
